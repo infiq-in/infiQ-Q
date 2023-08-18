@@ -1,0 +1,108 @@
+/* header */
+
+.all-header .mid-header {
+    display: none;
+}
+
+.all-header {
+    justify-content: space-between;
+}
+
+.sidebar-toggle-btn {
+    display: flex;
+}
+
+.contact-btn {
+    margin-right: 10px;
+}
+
+.left-line {
+    display: none;
+}
+
+.right-line {
+    display: none;
+}
+
+.left-header {
+    width: 22%;
+}
+
+/* header */
+
+/* home */
+.img-banner {
+    display: none;
+}
+
+.lower-solution {
+    gap: 130px;
+}
+
+.All-banner {
+    margin-top: 5%;
+}
+
+.left-sidebar {
+    display: none;
+}
+
+.banner {
+    width: 100%;
+}
+
+/* home */
+
+/* Approach */
+.Approach-right {
+    display: none;
+}
+
+.Approach-left {
+    width: 100%;
+}
+
+/* Approach */
+
+/* cost */
+.card-p .first-p,
+.second-p,
+.third-p {
+    margin-bottom: 5%;
+}
+
+/* cost */
+
+/* plans */
+.plans-card .first-plan,
+.second-plan,
+.third-plan {
+    margin-bottom: 5%;
+}
+
+/* plans */
+
+/* team */
+.team-mem .first-team, .second-team, .third-team, .fourth-team {
+    margin-bottom: 5%;
+}
+/* team */
+
+/* contact */
+.main-cont .left-Contact, .right-Contact {
+    width: 100%;
+}
+/* contact */
+
+
+.show-menu{
+    display: none;
+    float: right;
+    right: 0%;
+    transition: all 0.5s ease;
+}
+
+/* .main-menu.active {
+    display: none;
+    transition: all 0.5s ease;
+} */

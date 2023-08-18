@@ -1,0 +1,188 @@
+body {
+    text-align: center;
+}
+
+/* header */
+
+.all-header .mid-header {
+    display: none;
+}
+
+.left-header {
+    width: 30%;
+}
+
+.left-header {
+    width: 40%;
+}
+
+.all-header {
+    justify-content: space-between;
+    width: 106.8%;
+}
+
+.sidebar-toggle-btn {
+    display: flex;
+}
+
+.contact-btn {
+    margin-right: 10px;
+}
+
+.left-line {
+    display: none;
+}
+
+.right-line {
+    display: none;
+}
+
+/* header */
+
+/* home */
+.img-banner {
+    display: none;
+}
+
+.right-sidebar {
+    display: none;
+}
+
+.lower-solution {
+    gap: 130px;
+}
+
+.All-banner {
+    margin-top: 18%;
+}
+
+.left-sidebar {
+    display: none;
+}
+
+.banner {
+    width: 100%;
+}
+
+.click-switch {
+    display: none;
+}
+
+.wraper-btn {
+    justify-content: center;
+}
+
+/* home */
+
+/* Approach */
+.Approach-right {
+    display: none;
+}
+
+.Approach-left {
+    width: 100%;
+}
+
+.main-Approach {
+    margin-top: 40%;
+}
+
+/* Approach */
+
+/* all work */
+.left-part-sol {
+    width: 100%;
+}
+
+/* all work */
+
+/* projects */
+/* .left-p p {
+    display: none;
+} */
+
+.upper-p {
+    justify-content: center;
+}
+
+/* projects */
+
+/* cost */
+.card-p .first-p,
+.second-p,
+.third-p {
+    margin-bottom: 5%;
+}
+
+.left-part-cost {
+    width: 100%;
+}
+
+.upper-costumers {
+    justify-content: center;
+}
+
+/* cost */
+
+/* plans */
+.plans-card .first-plan,
+.second-plan,
+.third-plan {
+    margin-bottom: 5%;
+}
+
+.left-part-p {
+    width: 100%;
+}
+
+.upper-plans {
+    justify-content: center;
+}
+
+/* plans */
+
+/* team */
+.team-mem .first-team,
+.second-team,
+.third-team,
+.fourth-team {
+    margin-bottom: 5%;
+}
+
+/* team */
+
+/* contact */
+.main-cont .left-Contact,
+.right-Contact {
+    width: 100%;
+}
+
+.form {
+    height: 500px;
+}
+
+/* contact */
+
+/* footer */
+footer {
+    width: 106.8%;
+}
+
+.left-footer {
+    width: 30%;
+}
+
+/* footer */
+
+
+
+.show-menu {
+    display: none;
+    float: right;
+    right: 0%;
+    transition: all 0.5s ease;
+}
+
+/* .main-menu.active {
+    display: none;
+} */
