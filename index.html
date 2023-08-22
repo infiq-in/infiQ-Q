@@ -785,36 +785,36 @@
                 </div>
             </div>
             <div class="right-Contact">
-                <form class="form">
+                <form class="form" onsubmit="reset();return false;">
                     <h1>Make a free contact</h1>
                     <hr>
                     <div class="flex">
                         <label>
-                            <input required="" placeholder="" type="text" class="input">
+                            <input required="" placeholder="" type="text" class="input" id="fname">
                             <span>first name</span>
                         </label>
 
                         <label>
-                            <input required="" placeholder="" type="text" class="input">
+                            <input required="" placeholder="" type="text" class="input" id="lname">
                             <span>last name</span>
                         </label>
                     </div>
 
                     <label>
-                        <input required="" placeholder="" type="email" class="input">
+                        <input required="" placeholder="" type="email" class="input" id="email">
                         <span>email</span>
                     </label>
 
                     <label>
-                        <input required="" type="tel" placeholder="" class="input">
+                        <input required="" type="tel" placeholder="" class="input" id="Cnum">
                         <span>contact number</span>
                     </label>
                     <label>
-                        <textarea required="" rows="8" placeholder="" class="input01"></textarea>
+                        <textarea required="" rows="8" placeholder="" class="input01" id="msg"></textarea>
                         <span>message</span>
                     </label>
 
-                    <a href="#" class="r-btn">
+                    <a onclick="sendEmail()" class="r-btn">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -938,6 +938,8 @@
     <!-- jQuery -->
     <!-- Script -->
     <script src="Script/index.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"> </script> 
+    <script src="Response.js"></script>
     <!-- Script -->
 </body>
 
