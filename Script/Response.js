@@ -12,7 +12,7 @@ function sendEmail(){
     Subject : "Contact Form Response",
     Body : body
 }).then(
-  message => alert(message),    
+  message => alert("Response Submitted Successfully !!!!"),    
       document.getElementById("myForm").reset();
 
 );
