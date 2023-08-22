@@ -785,7 +785,7 @@
                 </div>
             </div>
             <div class="right-Contact">
-                <form class="form" onsubmit="sendEmail();reset();return false;">
+                <form class="form" >
                     <h1>Make a free contact</h1>
                     <hr>
                     <div class="flex">
@@ -814,7 +814,7 @@
                         <span>message</span>
                     </label>
 
-                    <a class="r-btn">
+                    <a class="r-btn" onclick="sendEmail();document.getElementById("form").reset();">
                         <span></span>
                         <span></span>
                         <span></span>
