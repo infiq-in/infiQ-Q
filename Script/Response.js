@@ -12,6 +12,6 @@ function sendEmail(){
     Subject : "Contact Form Response",
     Body : body
 }).then(
-  message => alert("Response Submitted Successfully !!!!")
+  message => alert(message)
 );
     }
