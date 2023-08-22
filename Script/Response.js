@@ -14,4 +14,5 @@ function sendEmail(){
 }).then(
   message => alert(message)
 );
+    document.getElementById("myForm").reset();
     }
