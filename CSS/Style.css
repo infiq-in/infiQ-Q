@@ -1235,6 +1235,7 @@ h6 a {
 /* rout */
 
 .r-btn {
+    cursor:pointer;
     text-align: center;
     position: relative;
     display: inline-block;
